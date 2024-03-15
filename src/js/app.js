@@ -36,7 +36,7 @@ function render(variables = {}) {
   if (variables.country == null) variables.country = "Chile";
   if (variables.twitter == null) variables.twitter = "elonmusk";
   if (variables.linkedin == null) variables.linkedin = "#";
-  if (variables.github == null) variables.github = "nguzm4ns";
+  if (variables.github == null) variables.github = "nguzm4n";
   if (variables.instagram == null) variables.instagram = "incubusofficial";
   // reset the website body with the new html output
   document.querySelector("#widget_content").innerHTML = `<div class="widget">
