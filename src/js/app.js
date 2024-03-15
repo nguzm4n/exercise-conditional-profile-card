@@ -1,3 +1,4 @@
+import { name } from "file-loader";
 import "../style/index.css";
 
 /**
@@ -28,7 +29,15 @@ function render(variables = {}) {
   // if includeCover==false then we reset the cover code without the <img> tag to make the cover transparent.
   let cover = `<div class="cover"><img src="${variables.background}" /></div>`;
   if (variables.includeCover == false) cover = "<div class='cover'></div>";
-
+  if (variables.name == null) variables.name = "Nicolás";
+  if (variables.lastName == null) variables.lastName = "Guzmán";
+  if (variables.role == null) variables.role = "Musician";
+  if (variables.city == null) variables.city = "Santiago";
+  if (variables.country == null) variables.country = "Chile";
+  if (variables.twitter == null) variables.twitter = "elonmusk";
+  if (variables.linkedin == null) variables.linkedin = "#";
+  if (variables.github == null) variables.github = "nguzm4ns";
+  if (variables.instagram == null) variables.instagram = "incubusofficial";
   // reset the website body with the new html output
   document.querySelector("#widget_content").innerHTML = `<div class="widget">
             ${cover}
