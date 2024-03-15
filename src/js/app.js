@@ -29,9 +29,9 @@ function render(variables = {}) {
   // if includeCover==false then we reset the cover code without the <img> tag to make the cover transparent.
   let cover = `<div class="cover"><img src="${variables.background}" /></div>`;
   if (variables.includeCover == false) cover = "<div class='cover'></div>";
-  if (variables.name == null) variables.name = "Midori";
-  if (variables.lastName == null) variables.lastName = "Ban";
-  if (variables.role == null) variables.role = "Musician";
+  if (variables.name == null) variables.name = "Hanamichi";
+  if (variables.lastName == null) variables.lastName = "Sakuragi";
+  if (variables.role == null) variables.role = "Basketball Player";
   if (variables.city == null) variables.city = "Santiago";
   if (variables.country == null) variables.country = "Chile";
   if (variables.twitter == null) variables.twitter = "elonmusk";
