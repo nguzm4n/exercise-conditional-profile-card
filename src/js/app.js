@@ -32,8 +32,8 @@ function render(variables = {}) {
   if (variables.name == null) variables.name = "Hanamichi";
   if (variables.lastName == null) variables.lastName = "Sakuragi";
   if (variables.role == null) variables.role = "Basketball Player";
-  if (variables.city == null) variables.city = "Santiago";
-  if (variables.country == null) variables.country = "Chile";
+  if (variables.city == null) variables.city = "Kanagawa";
+  if (variables.country == null) variables.country = "Japan";
   if (variables.twitter == null) variables.twitter = "elonmusk";
   if (variables.linkedin == null) variables.linkedin = "#";
   if (variables.github == null) variables.github = "nguzm4n";
